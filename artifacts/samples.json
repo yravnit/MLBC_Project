@@ -1,0 +1,182 @@
+[
+  {
+    "label": "legit",
+    "values": {
+      "amount": 174.48,
+      "hour": 0,
+      "day_of_week": 5,
+      "merchant_category": 5,
+      "distance_from_home": 1.7,
+      "distance_from_last_tx": 6.1,
+      "ratio_to_median": 0.1,
+      "is_chip": 1,
+      "is_pin_used": 1,
+      "velocity_24h": 6,
+      "foreign_transaction": 0,
+      "card_present": 1,
+      "account_age_months": 102
+    }
+  },
+  {
+    "label": "legit",
+    "values": {
+      "amount": 3.93,
+      "hour": 22,
+      "day_of_week": 0,
+      "merchant_category": 2,
+      "distance_from_home": 38.0,
+      "distance_from_last_tx": 13.8,
+      "ratio_to_median": 0.05,
+      "is_chip": 1,
+      "is_pin_used": 0,
+      "velocity_24h": 2,
+      "foreign_transaction": 0,
+      "card_present": 1,
+      "account_age_months": 80
+    }
+  },
+  {
+    "label": "legit",
+    "values": {
+      "amount": 58.72,
+      "hour": 22,
+      "day_of_week": 6,
+      "merchant_category": 6,
+      "distance_from_home": 28.2,
+      "distance_from_last_tx": 13.9,
+      "ratio_to_median": 0.96,
+      "is_chip": 1,
+      "is_pin_used": 0,
+      "velocity_24h": 3,
+      "foreign_transaction": 0,
+      "card_present": 1,
+      "account_age_months": 61
+    }
+  },
+  {
+    "label": "legit",
+    "values": {
+      "amount": 55.02,
+      "hour": 7,
+      "day_of_week": 4,
+      "merchant_category": 5,
+      "distance_from_home": 5.5,
+      "distance_from_last_tx": 7.6,
+      "ratio_to_median": 1.35,
+      "is_chip": 0,
+      "is_pin_used": 1,
+      "velocity_24h": 1,
+      "foreign_transaction": 0,
+      "card_present": 0,
+      "account_age_months": 116
+    }
+  },
+  {
+    "label": "legit",
+    "values": {
+      "amount": 30.96,
+      "hour": 17,
+      "day_of_week": 4,
+      "merchant_category": 6,
+      "distance_from_home": 6.8,
+      "distance_from_last_tx": 13.9,
+      "ratio_to_median": 1.35,
+      "is_chip": 1,
+      "is_pin_used": 1,
+      "velocity_24h": 2,
+      "foreign_transaction": 0,
+      "card_present": 1,
+      "account_age_months": 113
+    }
+  },
+  {
+    "label": "fraud",
+    "values": {
+      "amount": 60.29,
+      "hour": 5,
+      "day_of_week": 2,
+      "merchant_category": 6,
+      "distance_from_home": 38.3,
+      "distance_from_last_tx": 12.5,
+      "ratio_to_median": 1.19,
+      "is_chip": 1,
+      "is_pin_used": 1,
+      "velocity_24h": 4,
+      "foreign_transaction": 1,
+      "card_present": 0,
+      "account_age_months": 24
+    }
+  },
+  {
+    "label": "fraud",
+    "values": {
+      "amount": 4.83,
+      "hour": 16,
+      "day_of_week": 5,
+      "merchant_category": 5,
+      "distance_from_home": 44.3,
+      "distance_from_last_tx": 11.2,
+      "ratio_to_median": 0.91,
+      "is_chip": 1,
+      "is_pin_used": 0,
+      "velocity_24h": 1,
+      "foreign_transaction": 1,
+      "card_present": 1,
+      "account_age_months": 101
+    }
+  },
+  {
+    "label": "fraud",
+    "values": {
+      "amount": 35.24,
+      "hour": 16,
+      "day_of_week": 4,
+      "merchant_category": 5,
+      "distance_from_home": 35.1,
+      "distance_from_last_tx": 2.7,
+      "ratio_to_median": 1.09,
+      "is_chip": 1,
+      "is_pin_used": 0,
+      "velocity_24h": 2,
+      "foreign_transaction": 0,
+      "card_present": 0,
+      "account_age_months": 45
+    }
+  },
+  {
+    "label": "fraud",
+    "values": {
+      "amount": 23.26,
+      "hour": 0,
+      "day_of_week": 2,
+      "merchant_category": 6,
+      "distance_from_home": 34.2,
+      "distance_from_last_tx": 16.7,
+      "ratio_to_median": 0.58,
+      "is_chip": 1,
+      "is_pin_used": 0,
+      "velocity_24h": 6,
+      "foreign_transaction": 0,
+      "card_present": 1,
+      "account_age_months": 27
+    }
+  },
+  {
+    "label": "fraud",
+    "values": {
+      "amount": 6.14,
+      "hour": 17,
+      "day_of_week": 1,
+      "merchant_category": 3,
+      "distance_from_home": 15.1,
+      "distance_from_last_tx": 16.2,
+      "ratio_to_median": 0.56,
+      "is_chip": 0,
+      "is_pin_used": 1,
+      "velocity_24h": 2,
+      "foreign_transaction": 1,
+      "card_present": 1,
+      "account_age_months": 99
+    }
+  }
+]

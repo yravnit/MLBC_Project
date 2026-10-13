@@ -1,0 +1,40 @@
+{
+  "n_total": 20000,
+  "fraud_count": 1041,
+  "legit_count": 18959,
+  "fraud_rate": 0.05205,
+  "avg_amount_fraud": 48.39715658021134,
+  "avg_amount_legit": 42.416998259401865,
+  "class_means": {
+    "0": {
+      "amount": 42.416998259401865,
+      "hour": 11.616382720607627,
+      "day_of_week": 3.003428450867662,
+      "merchant_category": 2.9381823935861595,
+      "distance_from_home": 19.951152486945514,
+      "distance_from_last_tx": 12.467941347117465,
+      "ratio_to_median": 1.0024436942876735,
+      "is_chip": 0.8875995569386571,
+      "is_pin_used": 0.723350387678675,
+      "velocity_24h": 2.1923624663748087,
+      "foreign_transaction": 0.0923571918350124,
+      "card_present": 0.8192415211772773,
+      "account_age_months": 60.14141041194156
+    },
+    "1": {
+      "amount": 48.39715658021134,
+      "hour": 10.214217098943324,
+      "day_of_week": 3.037463976945245,
+      "merchant_category": 3.658981748318924,
+      "distance_from_home": 23.112007684918346,
+      "distance_from_last_tx": 13.597694524495678,
+      "ratio_to_median": 0.9646205571565802,
+      "is_chip": 0.7204610951008645,
+      "is_pin_used": 0.5878962536023055,
+      "velocity_24h": 2.431316042267051,
+      "foreign_transaction": 0.26993275696445723,
+      "card_present": 0.7704130643611912,
+      "account_age_months": 56.77233429394813
+    }
+  }
+}

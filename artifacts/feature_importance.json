@@ -1,0 +1,54 @@
+[
+  {
+    "feature": "distance_from_home",
+    "importance": 0.12981046173864144
+  },
+  {
+    "feature": "amount",
+    "importance": 0.12152310040673929
+  },
+  {
+    "feature": "distance_from_last_tx",
+    "importance": 0.11182176877724691
+  },
+  {
+    "feature": "account_age_months",
+    "importance": 0.11024232173007702
+  },
+  {
+    "feature": "ratio_to_median",
+    "importance": 0.11003866208476522
+  },
+  {
+    "feature": "hour",
+    "importance": 0.09234824359969636
+  },
+  {
+    "feature": "merchant_category",
+    "importance": 0.08634560696995126
+  },
+  {
+    "feature": "velocity_24h",
+    "importance": 0.05636811833563793
+  },
+  {
+    "feature": "day_of_week",
+    "importance": 0.053088480334544295
+  },
+  {
+    "feature": "is_chip",
+    "importance": 0.045519573058189655
+  },
+  {
+    "feature": "foreign_transaction",
+    "importance": 0.0454795825288394
+  },
+  {
+    "feature": "is_pin_used",
+    "importance": 0.022679183564814666
+  },
+  {
+    "feature": "card_present",
+    "importance": 0.01473489687085659
+  }
+]

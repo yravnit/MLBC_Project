@@ -1,0 +1,181 @@
+{
+  "merchants": [
+    "grocery",
+    "restaurant",
+    "electronics",
+    "travel",
+    "gas",
+    "online",
+    "jewelry"
+  ],
+  "feature_order": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "merchant_category",
+    "distance_from_home",
+    "distance_from_last_tx",
+    "ratio_to_median",
+    "is_chip",
+    "is_pin_used",
+    "velocity_24h",
+    "foreign_transaction",
+    "card_present",
+    "account_age_months"
+  ],
+  "feature_meta": [
+    {
+      "name": "amount",
+      "label": "Amount (USD)",
+      "type": "number",
+      "min": 0,
+      "step": 0.01
+    },
+    {
+      "name": "hour",
+      "label": "Hour of day (0-23)",
+      "type": "number",
+      "min": 0,
+      "max": 23,
+      "step": 1
+    },
+    {
+      "name": "day_of_week",
+      "label": "Day of week (0=Mon)",
+      "type": "number",
+      "min": 0,
+      "max": 6,
+      "step": 1
+    },
+    {
+      "name": "merchant_category",
+      "label": "Merchant category",
+      "type": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "grocery"
+        },
+        {
+          "value": 1,
+          "label": "restaurant"
+        },
+        {
+          "value": 2,
+          "label": "electronics"
+        },
+        {
+          "value": 3,
+          "label": "travel"
+        },
+        {
+          "value": 4,
+          "label": "gas"
+        },
+        {
+          "value": 5,
+          "label": "online"
+        },
+        {
+          "value": 6,
+          "label": "jewelry"
+        }
+      ]
+    },
+    {
+      "name": "distance_from_home",
+      "label": "Distance from home (km)",
+      "type": "number",
+      "min": 0,
+      "step": 0.1
+    },
+    {
+      "name": "distance_from_last_tx",
+      "label": "Distance from last tx (km)",
+      "type": "number",
+      "min": 0,
+      "step": 0.1
+    },
+    {
+      "name": "ratio_to_median",
+      "label": "Ratio to median purchase",
+      "type": "number",
+      "min": 0,
+      "step": 0.01
+    },
+    {
+      "name": "is_chip",
+      "label": "Chip used?",
+      "type": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "name": "is_pin_used",
+      "label": "PIN used?",
+      "type": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "name": "velocity_24h",
+      "label": "Tx count last 24h",
+      "type": "number",
+      "min": 0,
+      "step": 1
+    },
+    {
+      "name": "foreign_transaction",
+      "label": "Foreign transaction?",
+      "type": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "name": "card_present",
+      "label": "Card present?",
+      "type": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "No"
+        },
+        {
+          "value": 1,
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "name": "account_age_months",
+      "label": "Account age (months)",
+      "type": "number",
+      "min": 1,
+      "step": 1
+    }
+  ]
+}

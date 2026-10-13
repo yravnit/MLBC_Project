@@ -1,0 +1,26 @@
+{
+  "merchants": [
+    "grocery",
+    "restaurant",
+    "electronics",
+    "travel",
+    "gas",
+    "online",
+    "jewelry"
+  ],
+  "feature_order": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "merchant_category",
+    "distance_from_home",
+    "distance_from_last_tx",
+    "ratio_to_median",
+    "is_chip",
+    "is_pin_used",
+    "velocity_24h",
+    "foreign_transaction",
+    "card_present",
+    "account_age_months"
+  ]
+}
