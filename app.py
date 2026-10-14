@@ -91,5 +91,6 @@ def predict(payload: dict):
 
 
 @app.get("/api/health")
+@app.get("/health")
 def health():
     return {"status": "ok", "n_features": len(FEATURES)}
